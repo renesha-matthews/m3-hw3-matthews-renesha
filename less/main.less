@@ -8,6 +8,14 @@
     border: 0;
 }
 
+html {
+    box-sizing: border-box;
+}
+
+footer, header, main, nav, section {
+    display: block;
+}
+
 // Global Styles
 body {
     #global-style();
@@ -37,6 +45,31 @@ header nav {
     header nav ul li {
         list-style-type: none;
     }
+
+    header nav ul li a {
+        text-decoration: none;
+    }
+
+    .hero-image {
+        #hero-image();
+    }
+
+}
+
+.logo {
+    max-width: 100%;
+}
+
+section {
+    padding: 24px 0;
+
+    // section p {
+    //     padding-bottom: 20px;
+    // }
+}
+
+.dine-in {
+    #dine-in();
 }
 
 button {
