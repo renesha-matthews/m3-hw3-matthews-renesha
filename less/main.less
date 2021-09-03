@@ -1,1 +1,49 @@
 @import "./variables.less";
+@import "./mixins.less";
+
+// Reset Rule
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+// Global Styles
+body {
+    #global-style();
+
+    h1 {
+        display: none;
+    }
+
+    h2 {
+        #header;
+    }
+
+    // uppercase text
+    h2, button, .uppercase {
+        text-transform: @text-uppercase;
+    }
+
+    span {
+        color: @color-secondary;
+    }
+}
+
+
+header nav {
+    background-color: @color-primary;
+
+    header nav ul li {
+        list-style-type: none;
+    }
+}
+
+button {
+    #yellow-button();
+}
+
+
+footer {
+    background-color: @footer-background-black;
+}
