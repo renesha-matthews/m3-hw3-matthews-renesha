@@ -12,6 +12,7 @@ html {
     box-sizing: border-box;
 }
 
+
 footer, header, main, nav, section {
     display: block;
 }
@@ -36,17 +37,22 @@ body {
     span {
         color: @color-secondary;
     }
+
+    button {
+        #yellow-button();
+    }
 }
 
 
 header {
     background-color: @color-primary;
+    padding: 30px;
 
-    header nav ul li {
+    nav ul li {
         list-style-type: none;
     }
-
 }
+
 
 .hero-section {
     #hero-section();
@@ -54,21 +60,45 @@ header {
 
 .logo {
     max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    // width: 70%;
+}
+
+// Banner Section Button
+.button-center {
+    text-align: center;
 }
 
 section {
     padding: 24px 0;
 }
 
-.dine-in {
-    #dine-in();
+.world-best, .dine-in {
+    padding: 20px;
+    }
+
+// Burger Image    
+.burger {
+    padding-top: 30px;
 }
 
-button {
-    #yellow-button();
+.dine-in {
+    background-color: @background-white;
+    border-bottom: solid 10px @color-primary; 
 }
+
 
 
 footer {
     background-color: @footer-background-black;
+    padding: 20px;
+
+    .logo-footer {
+        width: 20%;
+    }
 }
+
+
+
