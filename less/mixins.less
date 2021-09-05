@@ -12,9 +12,14 @@
     padding-top: 20px;
 }
 
-//Hero Image 
-#hero-image {
-    background-image: url('../img/banner-bg.png') no-repeat center center fixed;
+//Hero Section 
+#hero-section {
+    background: linear-gradient(
+        @banner-image-background, 
+        @banner-image-background
+      ), url('../img/banner-bg.png');
+    background-size: cover;
+    // height: 100%;
 }
 
 // Button

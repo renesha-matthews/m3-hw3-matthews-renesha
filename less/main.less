@@ -25,7 +25,7 @@ body {
     }
 
     h2 {
-        #header;
+        #header();
     }
 
     // uppercase text
@@ -39,21 +39,17 @@ body {
 }
 
 
-header nav {
+header {
     background-color: @color-primary;
 
     header nav ul li {
         list-style-type: none;
     }
 
-    header nav ul li a {
-        text-decoration: none;
-    }
+}
 
-    .hero-image {
-        #hero-image();
-    }
-
+.hero-section {
+    #hero-section();
 }
 
 .logo {
@@ -62,10 +58,6 @@ header nav {
 
 section {
     padding: 24px 0;
-
-    // section p {
-    //     padding-bottom: 20px;
-    // }
 }
 
 .dine-in {

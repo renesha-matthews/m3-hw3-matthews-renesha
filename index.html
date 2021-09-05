@@ -6,6 +6,10 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- LESS -->
     <link rel="stylesheet/less" type="text/css" href="../less/main.less" />
 
     <title>Bob's Burgers</title>
@@ -19,50 +23,60 @@
   </head>
 
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Menu</a></li>
-          <li><a href="#">About Us</a></li>
-          <li class="uppercase"><a href="#"><span>Order Now</span></a></li>
-        </ul>
-      </nav>
+    <div class="container">
+      <header>
+        <nav>
+          <ul>
+            <li>Home</li>
+            <li>Menu</li>
+            <li>About Us</li>
+            <li class="uppercase"><span>Order Now</span></li>
+          </ul>
+        </nav>
+      
+      </header>
 
-      <div class="hero-image">
-        <h1>Bob's Burgers</h1>
+      <main>
+
+        <section class="hero-section">
+            <h1>Bob's Burgers</h1>
+
+            <img class="logo" src="img/logo.png" alt="Bob's Burger logo" title="Bob's Burger logo">
+
+            <button>Order Now</button>
+        </section>
+
+        <section>
+          <img src="img/bobs-burger.png" alt="Photo of a burger" title="Bob's Burger">
+
+          <h2>World's Best <span>Burgers</span></h2>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+
+          <button>View Menu</button>
+        </section>
+
+        <section class="dine-in">
+          <img src="img/bob-headshot.png" alt="A headshot of Bob" title="Bob Headshot">
+          
+          <h2>Dine-in or <span>Take-out</span></h2>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+
+          <button>Contact Us</button>
+        </section>
+      </main>
+
+      <footer>
         <img class="logo" src="img/logo.png" alt="Bob's Burger logo" title="Bob's Burger logo">
-        <button>Order Now</button>
-      </div>
-    </header>
+      </footer>
 
-    <main>
-      <section>
-        <img src="img/bobs-burger.png" alt="Photo of a burger" title="Bob's Burger">
+    </div>
 
-        <h2>World's Best <span>Burgers</span></h2>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
-
-        <button>View Menu</button>
-      </section>
-
-      <section class="dine-in">
-        <img src="img/bob-headshot.png" alt="A headshot of Bob" title="Bob Headshot">
-        
-        <h2>Dine-in or <span>Take-out</span></h2>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
-
-        <button>Contact Us</button>
-      </section>
-    </main>
-
-    <footer>
-      <img class="logo" src="img/logo.png" alt="Bob's Burger logo" title="Bob's Burger logo">
-    </footer>
-
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
     <script src="https://cdn.jsdelivr.net/npm/less@4.1.1" ></script>
-
   </body>
 </html>
